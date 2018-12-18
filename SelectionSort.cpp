@@ -1,4 +1,7 @@
 #include "SelectionSort.h"
+#include <iostream>
+
+using namespace std;
 
 SelectionSort::SelectionSort()
 {
@@ -12,19 +15,25 @@ SelectionSort::~SelectionSort()
 
 inline void Swap(int &a, int &b)
 {
-    int k = a;
+    int temp = a;
     a=b;
-    b=k;
+    b=temp;
 }
 
 void SelectionSort::SelectionSorter(int arr[], int arr_size)
 {
-    for(int i=0; i< arr_size - 1; ++i)
+    for(int index=0; index< arr_size - 1; ++index)
     {
-        int min = i;
-        for(int j=i+1;j<arr_size;++j)
+        int min = index;
+        for(int j=index+1;j<arr_size;++j)
             if(arr[j] < arr[min])
                 min = j;
-        Swap(arr[min], arr[i]);
+        Swap(arr[min], arr[index]);
     }
+    cout<<"Steps of Selection Sort:"<<endl;
+    for(int index=0; index<arr_size; index++)
+    {
+        cout<<arr[index]<<" ";
+    }
+    cout<<""<<endl;
 }
