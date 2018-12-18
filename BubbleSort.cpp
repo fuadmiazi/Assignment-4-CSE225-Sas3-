@@ -1,4 +1,7 @@
 #include "BubbleSort.h"
+#include <iostream>
+
+using namespace std;
 
 BubbleSort::BubbleSort()
 {
@@ -19,13 +22,18 @@ void BubbleSort::BubbleSorter(int *array, int n)
     {
         swapped = false;
         j++;
-        for(int i=0; i<n-j; ++i)
+        for(int index=0; index<n-j; ++index)
         {
-            if(array[i] > array[i+1])
+            if(array[index] > array[index+1])
             {
-                temp = array[i];
-                array[i] = array[i+1];
-                array[i+1] = temp;
+                temp = array[index];
+                array[index] = array[index+1];
+                array[index+1] = temp;
+                for(int index=0;index<8;index++)
+                {
+                    cout<<array[index]<<" ";
+                }
+                cout<<""<<endl;
                 swapped = true;
             }
         }
