@@ -37,3 +37,23 @@ void SelectionSort::SelectionSorter(int arr[], int arr_size)
     }
     cout<<""<<endl;
 }
+void SelectionSort::SelectionSorterVector(vector <int> &data)
+{
+    cout<<"Steps of Selection Sort using Vector"<<endl;
+     int index,num, first_element, size = data.size();
+
+     for ( index =0; index<size+1; index++ ){
+         first_element = index;
+         for ( num = index+1; num<size; num++ ){
+
+             if ( data[num] < data[first_element] )
+             first_element = num;
+         }
+     swap(data[first_element], data[index]);
+     for (std::vector<int>::iterator val = data.begin();val != data.end(); ++val)
+    std::cout << *val <<" " ;
+    cout<<""<<endl;
+     }
+
+
+}

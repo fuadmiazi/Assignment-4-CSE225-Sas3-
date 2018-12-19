@@ -37,3 +37,30 @@ void InsertionSort::InsertionSorter(int arr[], int arr_size)
         }
     }
 }
+void InsertionSort::InsertionSorterVector(vector<int> & data)
+{
+    cout<<"Insertion Sort Steps for Vector::"<<endl;
+ if(data.size() > 1)
+ {
+
+ for(int index = 1; index< data.size(); ++index)
+ {
+ int num = index- 1;
+ int key = data[index];
+ while(num>= 0 && data[num] > key)
+ {
+ data[num+1] = data[num];
+ --num;
+ }
+ data[num+1] = key;
+  for (std::vector<int>::iterator val = data.begin();val != data.end(); ++val)
+    std::cout << *val <<" " ;
+    cout<<""<<endl;
+
+ }
+
+
+
+}
+}
+

@@ -63,7 +63,7 @@ int main()
              }
              cout<<"\n\n"<<endl;
 
-cout<<"Vector Part"<<endl;
+/*cout<<"Vector Part"<<endl;
     std::vector<int> vectorSelection(arr,arr+sizeof(arr)/sizeof(int));
 
    std::vector<int> vectorInsertion(arr,arr+sizeof(arr)/sizeof(int));
@@ -94,7 +94,7 @@ cout<<"Vector Part"<<endl;
     cout<<"Final Bubble Sort for Vector::"<<endl;
     for(int index=0;index<vectorBubble.size();index++)
         cout<<vectorBubble[index]<<" ";
-        cout<<"\n"<<endl;
+        cout<<"\n"<<endl;*/
 
     return 0;
 }
