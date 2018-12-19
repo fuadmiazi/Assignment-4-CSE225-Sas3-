@@ -39,7 +39,7 @@ int main()
     InsertionSort objInsertion;
     objInsertion.InsertionSorter(arrayInsertion,8);
      cout<<"Final Insertion Sort for Array::"<<endl;
- for(int index=0;index<8;index++)
+    for(int index=0;index<8;index++)
     {
         cout<<arrayInsertion[index]<<" ";
     }
@@ -48,7 +48,7 @@ int main()
     MergeSort objMarge;
     objMarge.MergeSorter(arrayMarge,8);
     cout<<"Final Merge Sort for Array::"<<endl;
- for(int index=0;index<8;index++)
+    for(int index=0;index<8;index++)
             {
                 cout<<arrayMarge[index]<<" ";
              }
@@ -63,7 +63,7 @@ int main()
              }
              cout<<"\n\n"<<endl;
 
-/*cout<<"Vector Part"<<endl;
+    cout<<"Vector Part"<<endl;
     std::vector<int> vectorSelection(arr,arr+sizeof(arr)/sizeof(int));
 
    std::vector<int> vectorInsertion(arr,arr+sizeof(arr)/sizeof(int));
@@ -94,7 +94,7 @@ int main()
     cout<<"Final Bubble Sort for Vector::"<<endl;
     for(int index=0;index<vectorBubble.size();index++)
         cout<<vectorBubble[index]<<" ";
-        cout<<"\n"<<endl;*/
+        cout<<"\n"<<endl;
 
     return 0;
 }

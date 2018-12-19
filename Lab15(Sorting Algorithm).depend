@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1545256177 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\main.cpp
+1545256745 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\main.cpp
 	<iostream>
 	"SelectionSort.h"
 	"InsertionSort.h"
@@ -14,7 +14,7 @@
 1545239607 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\selectionsort.h
 	<vector>
 
-1545256279 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\insertionsort.cpp
+1545256334 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\insertionsort.cpp
 	"InsertionSort.h"
 	<iostream>
 
