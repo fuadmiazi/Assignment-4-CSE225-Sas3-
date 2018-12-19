@@ -8,7 +8,7 @@ public:
     SelectionSort();
     ~SelectionSort();
     void SelectionSorter(int arr[], int arr_size);
-    void SelectionSorter(std::vector<int> & data);
+    void SelectionSorterVector(std::vector<int> & data);
 };
 
 #endif // SELECTIONSORT_H_INCLUDED

@@ -1,4 +1,7 @@
 #include "MergeSort.h"
+#include <iostream>
+
+using namespace std;
 
 MergeSort::MergeSort()
 {
@@ -13,22 +16,22 @@ MergeSort::~MergeSort()
 void Merger(int arr[], int lo, int mi, int hi)
 {
     int *temp = new int[hi-lo+1];
-    int i = lo, j = mi+1;
+    int index = lo, j = mi+1;
     int k = 0;
-    while(i <= mi && j <=hi)
+    while(index <= mi && j <=hi)
     {
-        if(arr[i] <= arr[j])
-            temp[k++] = arr[i++];
+        if(arr[index] <= arr[j])
+            temp[k++] = arr[index++];
         else
             temp[k++] = arr[j++];
     }
 
-    while(i <= mi)
-        temp[k++] = arr[i++];
+    while(index <= mi)
+        temp[k++] = arr[index++];
     while(j <= hi)
         temp[k++] = arr[j++];
-    for(k = 0, i= lo; i <= hi; ++i, ++k)
-        arr[i] = temp[k];
+    for(k = 0, index= lo; index <= hi; ++index, ++k)
+        arr[index] = temp[k];
     delete []temp;
 }
 

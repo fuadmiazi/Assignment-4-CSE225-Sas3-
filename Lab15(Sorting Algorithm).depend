@@ -11,7 +11,7 @@
 	"SelectionSort.h"
 	<iostream>
 
-1545168566 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\selectionsort.h
+1545239607 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\selectionsort.h
 	<vector>
 
 1545175991 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\insertionsort.cpp
@@ -21,14 +21,16 @@
 1545168566 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\insertionsort.h
 	<vector>
 
-1544819241 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\mergesort.cpp
+1545239397 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\mergesort.cpp
 	"MergeSort.h"
+	<iostream>
 
 1545168566 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\mergesort.h
 	<vector>
 
-1544899762 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\bubblesort.cpp
+1545176217 source:g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\bubblesort.cpp
 	"BubbleSort.h"
+	<iostream>
 
 1545170736 g:\study\fall 2018\cse225(sas3)\lab\lab practices\lab15(sorting algorithm)\bubblesort.h
 	<vector>
